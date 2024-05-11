@@ -17,13 +17,15 @@ with st.container():
     st.title("")
     col1, col2, col3 = st.columns(column_widths)   
     with col1:
-        st.text("")
+        st.image("scr/logocallejon.png",width=1200, use_column_width=True, output_format='auto')
         
-    with col2: 
+    with col2:
+        st.text("")  
+          
+    with col3: 
         st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
         
-    with col3:
-        st.text("")
+    
 
     
         
