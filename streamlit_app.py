@@ -12,7 +12,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 
-column_widths = [1, 3, 1]
+column_widths = [2, 1, 2]
 with st.container():
     st.title("")
     col1, col2, col3 = st.columns(column_widths)   
