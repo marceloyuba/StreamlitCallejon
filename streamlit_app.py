@@ -27,12 +27,8 @@ with st.container():
           
     with col3: 
         st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
-with st.container():   
-        
-    st.selectbox(
-        'Selecciona una opción',
-        ('Opción 1', 'Opción 2', 'Opción 3')
-    )
+
+
     
         
 st.title("Sobre nosotros")
