@@ -24,7 +24,17 @@ with st.container():
           
     with col3: 
         st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
-        
+estilo_personalizado = """
+    <style>
+        body {
+            color: white; /* Establecer el color del texto en blanco */
+            background-color: rgba(0, 0, 0, 0); /* Establecer el fondo transparente */
+        }
+    </style>
+"""
+
+# Mostrar el estilo personalizado
+st.markdown(estilo_personalizado, unsafe_allow_html=True)        
     
 st.selectbox(
     'Selecciona una opción',
