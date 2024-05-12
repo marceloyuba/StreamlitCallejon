@@ -141,7 +141,24 @@ with st.container():
         st.image(imagen, width=500, use_column_width=True, output_format='auto')
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)  
 
+def main():    
 
+    st.title("Dashboard de analisis de insercion de mercado")
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: center;">
+       <iframe title="DatasetMockup" width="1300" height="860" src="https://app.powerbi.com/view?r=eyJrIjoiZjRmOWFiOWUtZmE4Yy00MDcwLTllNjktNjE5NTcwZDY3OTJlIiwidCI6ImUyYjc5Nzc5LTBhODgtNDMzMS05YjQyLTM4NGNkNzFjODVkNyIsImMiOjR9&pageName=ReportSection10f0c58045468d53ab10" frameborder="0" allowFullScreen="true"></iframe>
+       </div>
+        """,
+        
+        unsafe_allow_html=True
+    )      
+    
+        
+if __name__ == "__main__":
+    main()
+    
+    
 st.title("")
 
 st.title("Nuestro equipo de trabajo")
