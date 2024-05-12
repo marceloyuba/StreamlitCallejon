@@ -12,7 +12,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 
-column_widths = [2, 1, 2]
+column_widths = [1, 1, 2]
 with st.container():
     st.title("")
     col1, col2, col3 = st.columns(column_widths)   
@@ -94,7 +94,7 @@ page_bg_img = f"""
 <style>
 
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://github.com/marceloyuba/StreamlitCallejon/blob/main/scr/fondoi.png?raw=true");
+background-image: url("https://github.com/marceloyuba/StreamlitCallejon/blob/main/scr/fondod.png?raw=true");
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: fixed;
