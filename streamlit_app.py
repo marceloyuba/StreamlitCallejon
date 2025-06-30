@@ -75,17 +75,18 @@ with st.container():
     with right_column:
         st.empty()
 
-page_bg_img = f"""
+page_bg_style = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://github.com/marceloyuba/StreamlitCallejon/blob/main/scr/fondod.png");
-background-position: top left;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+    background-color: rgba(0, 43, 91, 0.8);  /* color azul oscuro con opacidad */
+    background-image: url("https://github.com/marceloyuba/StreamlitCallejon/blob/main/scr/fondod.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }}
 </style>
 """
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(page_bg_style, unsafe_allow_html=True)
 
