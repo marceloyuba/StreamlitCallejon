@@ -14,13 +14,11 @@ with st.container():
     st.title("")
     col1, col2, col3 = st.columns(column_widths)
     with col1:
-        st.image("scr/logocallejon.png", width=1200, use_container_width=True, output_format='auto')
-
+        st.image("scr/logocallejon.png", use_container_width=True, output_format='auto')
     with col2:
         st.text("")
-
     with col3:
-        st.image("scr/SDTLogoC.png", width=1200, use_container_width=True, output_format='auto')
+        st.image("scr/SDTLogoC.png", use_container_width=True, output_format='auto')
 
 with st.container():
     st.markdown('<style>h4{color: white;}</style>', unsafe_allow_html=True)
@@ -36,10 +34,9 @@ with st.container():
         st.markdown("""
             #### Es una propuesta diferente de analizar el Futbol, tomando a los dos maximos referentes del siglo 21, Lionel messi y Cristiano Ronaldo, hacemos un repaso de sus estadisticas en sus años en La Liga y las comptencias continentales, por su paso por Barcelona y Real Madrid respectivamente 
         """)
-
     with col2:
         imagen = "scr/callejon.png"
-        st.image(imagen, width=500, use_container_width=True, output_format='auto')
+        st.image(imagen, use_container_width=True, output_format='auto')
 
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)
 
@@ -91,3 +88,4 @@ background-size: cover;
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
